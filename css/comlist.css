@@ -1,0 +1,361 @@
+body {
+    background-color: rgba(224, 235, 220, 0.165);
+}
+
+.recomend {
+    margin-top: 50px;
+    position: relative;
+    height: 500px;
+    background: url("../images/list1/后海.jpg") no-repeat center;
+    background-size: cover;
+    z-index: 1;
+    color: rgb(59, 9, 63);
+}
+
+.recomend::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 500px;
+    background-color: rgba(201, 167, 240, 0.556);
+    z-index: -1;
+}
+
+.recomend-con {
+    padding: 20px 10px;
+}
+
+.re-c1 ul {
+    width: 324px;
+    margin-top: 50px;
+}
+
+.re-c1 li {
+    padding-top: 20px;
+    padding-bottom: 100px;
+}
+
+.re-c1 li:nth-of-type(2) {
+    margin-top: 20px;
+    padding-bottom: 0;
+}
+
+.re-c1 h3 {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.re-c1 span {
+    display: inline-block;
+    width: 300px;
+    border-bottom: 2px solid rgba(83, 133, 180, 0.734);
+    padding-bottom: 10px;
+    font-size: 16px;
+}
+
+.re-c2 {
+    position: relative;
+    margin-left: 92px;
+    margin-top: 60px;
+    width: 200px;
+    height: 300px;
+    box-sizing: border-box;
+    padding-top: 40px;
+    z-index: 1;
+}
+
+.re-c2::before {
+    position: absolute;
+    content: '';
+    width: 200px;
+    height: 300px;
+    left: 0;
+    top: 0;
+    background-color: rgba(231, 187, 229, 0.433);
+    z-index: -1;
+}
+
+.re-c2 h3 {
+    font-size: 28px;
+    text-align: center;
+    color: #000;
+}
+
+.re-c2 em {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -5px;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #000;
+}
+
+.re-c2 i {
+    position: absolute;
+    background-color: #000;
+}
+
+.i1 {
+    width: 220px;
+    height: 4px;
+    top: 0;
+    left: -10px;
+}
+
+.i2 {
+    width: 4px;
+    height: 320px;
+    right: 0;
+    top: -10px;
+}
+
+.i3 {
+    width: 4px;
+    height: 320px;
+    left: 0;
+    top: -10px;
+}
+
+.i4 {
+    width: 220px;
+    height: 4px;
+    bottom: 0;
+    left: -10px;
+}
+
+.re-c3 {
+    margin-top: 70px;
+    width: 400px;
+    height: 350px;
+}
+
+.re-c3 p {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 2px;
+    text-align: left;
+}
+
+
+/* food */
+
+.food {
+    height: 500px;
+    background-color: #fff;
+    padding: 30px 0;
+}
+
+.food-con {
+    width: 1170px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.food-con h3 {
+    font-size: 28px;
+    color: #000000;
+    letter-spacing: 2px;
+    font-weight: 600;
+}
+
+.food-con p {
+    color: #999999;
+    font-size: 14px;
+    margin: 1em auto 0;
+    width: 40%;
+}
+
+.food-grids {
+    position: absolute;
+    left: 50%;
+    margin-left: -674px;
+    width: 100%;
+    height: 340px;
+}
+
+.item {
+    float: left;
+    position: relative;
+    width: 337px;
+    height: 337px;
+    background-color: #fff;
+    overflow: hidden;
+}
+
+.item img {
+    width: 100%;
+    height: 100%;
+}
+
+.services-grid-caption {
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.61);
+    padding: 200px 0;
+    position: absolute;
+    left: 0;
+    bottom: -360px;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+    transition: .5s all
+}
+
+.services-grid-caption h4 {
+    color: #FFFFFF;
+    font-size: 2em;
+    font-weight: 600;
+    margin: .5em 0 0 0;
+}
+
+.services-grid-caption p {
+    color: #c5c5c5;
+    font-size: .9em;
+    margin: 0
+}
+
+.item:hover .services-grid-caption {
+    bottom: 0;
+}
+
+.item-m {
+    position: relative;
+    float: left;
+    width: 674px;
+    height: 337px;
+    overflow: hidden;
+    background: url(../images/list1/s3.jpg) no-repeat;
+    background-size: cover;
+    z-index: 1;
+}
+
+.m {
+    position: absolute;
+    width: 674px;
+    height: 337px;
+    background: rgba(0, 0, 0, 0.432);
+    z-index: 999;
+}
+
+.m h2 {
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+    font-size: 26px;
+}
+
+.m h2 a {
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    width: 200px;
+    height: 70px;
+    line-height: 70px;
+    border: 1px solid #ccc;
+}
+
+.m h2 a:hover {
+    background-color: rgba(0, 0, 0, .3);
+}
+
+
+/* food */
+
+.surf-equip {
+    height: 550px;
+}
+
+.surf-equip h3 {
+    font-size: 26px;
+    color: rgb(233, 148, 127);
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 280px;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #eeb35be0;
+}
+
+.surf-equip p {
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.surf-equip ul {
+    position: relative;
+    width: 1140px;
+}
+
+.surf-equip li {
+    position: absolute;
+    left: -700px;
+    float: left;
+    padding: 20px;
+    margin: 20px 15px;
+    width: 500px;
+    height: 150px;
+    background-color: rgb(233, 227, 227);
+    border-radius: 10px;
+}
+
+.surf-equip ul li:nth-child(3) {
+    top: 230px;
+}
+
+.surf-equip ul li:nth-child(4) {
+    top: 230px;
+}
+
+.img-box {
+    width: 75px;
+    height: 75px;
+}
+
+.img-box img {
+    height: 100%;
+    width: 100%;
+}
+
+.detail-box {
+    text-align: left;
+    width: 370px;
+}
+
+.detail-box h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.hotel {
+    height: 400px;
+    /* background-color: rgb(220, 233, 232); */
+}
+
+.ho-detail a {
+    display: block;
+    position: relative;
+    height: 400px;
+    background: url(../images/list1/jd1.jpg) no-repeat center;
+}
+
+.ho-detail a span {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    background-color: rgba(255, 255, 255, 0.542);
+    font-size: 18px;
+    border-radius: 10px;
+    letter-spacing: 2px;
+}
+
+.ho-detail a span:hover {
+    color: rgb(240, 147, 113);
+}
